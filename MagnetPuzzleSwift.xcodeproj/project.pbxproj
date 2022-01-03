@@ -18,6 +18,7 @@
 		DEB4BC1F278322CF00D870A3 /* EmptyCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB4BC1E278322CF00D870A3 /* EmptyCell.swift */; };
 		DEB4BC21278322DF00D870A3 /* PairCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB4BC20278322DF00D870A3 /* PairCell.swift */; };
 		DEB4BC2427832D5700D870A3 /* Board.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB4BC2327832D5700D870A3 /* Board.swift */; };
+		DEB4BC2627832D8100D870A3 /* BoardMaker.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB4BC2527832D8100D870A3 /* BoardMaker.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -45,6 +46,7 @@
 		DEB4BC1E278322CF00D870A3 /* EmptyCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyCell.swift; sourceTree = "<group>"; };
 		DEB4BC20278322DF00D870A3 /* PairCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PairCell.swift; sourceTree = "<group>"; };
 		DEB4BC2327832D5700D870A3 /* Board.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Board.swift; path = ../../../../Documents/Board.swift; sourceTree = "<group>"; };
+		DEB4BC2527832D8100D870A3 /* BoardMaker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = BoardMaker.swift; path = ../../../../Documents/BoardMaker.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +114,7 @@
 			isa = PBXGroup;
 			children = (
 				DEB4BC2327832D5700D870A3 /* Board.swift */,
+				DEB4BC2527832D8100D870A3 /* BoardMaker.swift */,
 			);
 			path = Board;
 			sourceTree = "<group>";
@@ -177,6 +180,7 @@
 				DEB4BC10278320CA00D870A3 /* Position.swift in Sources */,
 				DEB4BC21278322DF00D870A3 /* PairCell.swift in Sources */,
 				DEB4BC12278320EC00D870A3 /* Clonable.swift in Sources */,
+				DEB4BC2627832D8100D870A3 /* BoardMaker.swift in Sources */,
 				DEB4BC1B278322B600D870A3 /* Cell.swift in Sources */,
 				DEB4BC2427832D5700D870A3 /* Board.swift in Sources */,
 				DEB4BC0827831E9C00D870A3 /* main.swift in Sources */,
