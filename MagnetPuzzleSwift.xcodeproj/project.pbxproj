@@ -8,6 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		DEB4BC0827831E9C00D870A3 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB4BC0727831E9C00D870A3 /* main.swift */; };
+		DEB4BC10278320CA00D870A3 /* Position.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB4BC0F278320CA00D870A3 /* Position.swift */; };
+		DEB4BC12278320EC00D870A3 /* Clonable.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB4BC11278320EC00D870A3 /* Clonable.swift */; };
+		DEB4BC142783210E00D870A3 /* MagnetSymbol.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB4BC132783210E00D870A3 /* MagnetSymbol.swift */; };
+		DEB4BC162783212C00D870A3 /* Constraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB4BC152783212C00D870A3 /* Constraint.swift */; };
+		DEB4BC182783214200D870A3 /* NodeType.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB4BC172783214200D870A3 /* NodeType.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +30,11 @@
 /* Begin PBXFileReference section */
 		DEB4BC0427831E9C00D870A3 /* MagnetPuzzleSwift */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = MagnetPuzzleSwift; sourceTree = BUILT_PRODUCTS_DIR; };
 		DEB4BC0727831E9C00D870A3 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		DEB4BC0F278320CA00D870A3 /* Position.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Position.swift; sourceTree = "<group>"; };
+		DEB4BC11278320EC00D870A3 /* Clonable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Clonable.swift; sourceTree = "<group>"; };
+		DEB4BC132783210E00D870A3 /* MagnetSymbol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagnetSymbol.swift; sourceTree = "<group>"; };
+		DEB4BC152783212C00D870A3 /* Constraint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constraint.swift; sourceTree = "<group>"; };
+		DEB4BC172783214200D870A3 /* NodeType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NodeType.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,9 +67,22 @@
 		DEB4BC0627831E9C00D870A3 /* MagnetPuzzleSwift */ = {
 			isa = PBXGroup;
 			children = (
+				DEB4BC0E278320BD00D870A3 /* Utilities */,
 				DEB4BC0727831E9C00D870A3 /* main.swift */,
 			);
 			path = MagnetPuzzleSwift;
+			sourceTree = "<group>";
+		};
+		DEB4BC0E278320BD00D870A3 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				DEB4BC0F278320CA00D870A3 /* Position.swift */,
+				DEB4BC11278320EC00D870A3 /* Clonable.swift */,
+				DEB4BC132783210E00D870A3 /* MagnetSymbol.swift */,
+				DEB4BC152783212C00D870A3 /* Constraint.swift */,
+				DEB4BC172783214200D870A3 /* NodeType.swift */,
+			);
+			path = Utilities;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -120,7 +143,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DEB4BC10278320CA00D870A3 /* Position.swift in Sources */,
+				DEB4BC12278320EC00D870A3 /* Clonable.swift in Sources */,
 				DEB4BC0827831E9C00D870A3 /* main.swift in Sources */,
+				DEB4BC182783214200D870A3 /* NodeType.swift in Sources */,
+				DEB4BC162783212C00D870A3 /* Constraint.swift in Sources */,
+				DEB4BC142783210E00D870A3 /* MagnetSymbol.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
