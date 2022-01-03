@@ -17,6 +17,8 @@
 		DEB4BC1D278322C400D870A3 /* ConstraintCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB4BC1C278322C300D870A3 /* ConstraintCell.swift */; };
 		DEB4BC1F278322CF00D870A3 /* EmptyCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB4BC1E278322CF00D870A3 /* EmptyCell.swift */; };
 		DEB4BC21278322DF00D870A3 /* PairCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB4BC20278322DF00D870A3 /* PairCell.swift */; };
+		DEB4BC2427832D5700D870A3 /* Board.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB4BC2327832D5700D870A3 /* Board.swift */; };
+		DEB4BC2627832D8100D870A3 /* BoardMaker.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB4BC2527832D8100D870A3 /* BoardMaker.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -43,6 +45,8 @@
 		DEB4BC1C278322C300D870A3 /* ConstraintCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConstraintCell.swift; sourceTree = "<group>"; };
 		DEB4BC1E278322CF00D870A3 /* EmptyCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyCell.swift; sourceTree = "<group>"; };
 		DEB4BC20278322DF00D870A3 /* PairCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PairCell.swift; sourceTree = "<group>"; };
+		DEB4BC2327832D5700D870A3 /* Board.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Board.swift; path = ../../../../Documents/Board.swift; sourceTree = "<group>"; };
+		DEB4BC2527832D8100D870A3 /* BoardMaker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = BoardMaker.swift; path = ../../../../Documents/BoardMaker.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +79,7 @@
 		DEB4BC0627831E9C00D870A3 /* MagnetPuzzleSwift */ = {
 			isa = PBXGroup;
 			children = (
+				DEB4BC2227832D4A00D870A3 /* Board */,
 				DEB4BC19278322AB00D870A3 /* Cells */,
 				DEB4BC0E278320BD00D870A3 /* Utilities */,
 				DEB4BC0727831E9C00D870A3 /* main.swift */,
@@ -103,6 +108,15 @@
 				DEB4BC20278322DF00D870A3 /* PairCell.swift */,
 			);
 			path = Cells;
+			sourceTree = "<group>";
+		};
+		DEB4BC2227832D4A00D870A3 /* Board */ = {
+			isa = PBXGroup;
+			children = (
+				DEB4BC2327832D5700D870A3 /* Board.swift */,
+				DEB4BC2527832D8100D870A3 /* BoardMaker.swift */,
+			);
+			path = Board;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -166,7 +180,9 @@
 				DEB4BC10278320CA00D870A3 /* Position.swift in Sources */,
 				DEB4BC21278322DF00D870A3 /* PairCell.swift in Sources */,
 				DEB4BC12278320EC00D870A3 /* Clonable.swift in Sources */,
+				DEB4BC2627832D8100D870A3 /* BoardMaker.swift in Sources */,
 				DEB4BC1B278322B600D870A3 /* Cell.swift in Sources */,
+				DEB4BC2427832D5700D870A3 /* Board.swift in Sources */,
 				DEB4BC0827831E9C00D870A3 /* main.swift in Sources */,
 				DEB4BC1D278322C400D870A3 /* ConstraintCell.swift in Sources */,
 				DEB4BC182783214200D870A3 /* NodeType.swift in Sources */,
