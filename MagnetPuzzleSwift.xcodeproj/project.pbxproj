@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		DEB4BC0827831E9C00D870A3 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB4BC0727831E9C00D870A3 /* main.swift */; };
 		DEB4BC10278320CA00D870A3 /* Position.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB4BC0F278320CA00D870A3 /* Position.swift */; };
+		DEB4BC12278320EC00D870A3 /* Clonable.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB4BC11278320EC00D870A3 /* Clonable.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -27,6 +28,7 @@
 		DEB4BC0427831E9C00D870A3 /* MagnetPuzzleSwift */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = MagnetPuzzleSwift; sourceTree = BUILT_PRODUCTS_DIR; };
 		DEB4BC0727831E9C00D870A3 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		DEB4BC0F278320CA00D870A3 /* Position.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Position.swift; sourceTree = "<group>"; };
+		DEB4BC11278320EC00D870A3 /* Clonable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Clonable.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +71,7 @@
 			isa = PBXGroup;
 			children = (
 				DEB4BC0F278320CA00D870A3 /* Position.swift */,
+				DEB4BC11278320EC00D870A3 /* Clonable.swift */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -132,6 +135,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DEB4BC10278320CA00D870A3 /* Position.swift in Sources */,
+				DEB4BC12278320EC00D870A3 /* Clonable.swift in Sources */,
 				DEB4BC0827831E9C00D870A3 /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
