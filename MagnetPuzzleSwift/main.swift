@@ -7,8 +7,16 @@
 
 import Foundation
 
-let board = BoardMaker(inputName:"/Users/kiarashvosough/Desktop/Magnet/Magnet/input1_method2.txt")
-    .getBoard()
-let csp = CSP(board: board)
-csp.setup()
+let inputsPath = "/Users/kiarashvosough/Desktop/MagnetPuzzleSwift/MagnetPuzzleSwift/Inputs/"
+
+let input1 = "input1_method2.txt"
+let input2 = "input2_method2.txt"
+let input3 = "input3_method2.txt"
+
+for item in [input3, input2, input1] {
+    let board = BoardMaker(inputName: inputsPath + item).getBoard()
+    let csp = CSP(board: board)
+    csp.setup()
+    sleep(20)
+}
 
