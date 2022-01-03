@@ -12,6 +12,7 @@
 		DEB4BC12278320EC00D870A3 /* Clonable.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB4BC11278320EC00D870A3 /* Clonable.swift */; };
 		DEB4BC142783210E00D870A3 /* MagnetSymbol.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB4BC132783210E00D870A3 /* MagnetSymbol.swift */; };
 		DEB4BC162783212C00D870A3 /* Constraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB4BC152783212C00D870A3 /* Constraint.swift */; };
+		DEB4BC182783214200D870A3 /* NodeType.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB4BC172783214200D870A3 /* NodeType.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -33,6 +34,7 @@
 		DEB4BC11278320EC00D870A3 /* Clonable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Clonable.swift; sourceTree = "<group>"; };
 		DEB4BC132783210E00D870A3 /* MagnetSymbol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagnetSymbol.swift; sourceTree = "<group>"; };
 		DEB4BC152783212C00D870A3 /* Constraint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constraint.swift; sourceTree = "<group>"; };
+		DEB4BC172783214200D870A3 /* NodeType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NodeType.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +80,7 @@
 				DEB4BC11278320EC00D870A3 /* Clonable.swift */,
 				DEB4BC132783210E00D870A3 /* MagnetSymbol.swift */,
 				DEB4BC152783212C00D870A3 /* Constraint.swift */,
+				DEB4BC172783214200D870A3 /* NodeType.swift */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -143,6 +146,7 @@
 				DEB4BC10278320CA00D870A3 /* Position.swift in Sources */,
 				DEB4BC12278320EC00D870A3 /* Clonable.swift in Sources */,
 				DEB4BC0827831E9C00D870A3 /* main.swift in Sources */,
+				DEB4BC182783214200D870A3 /* NodeType.swift in Sources */,
 				DEB4BC162783212C00D870A3 /* Constraint.swift in Sources */,
 				DEB4BC142783210E00D870A3 /* MagnetSymbol.swift in Sources */,
 			);
