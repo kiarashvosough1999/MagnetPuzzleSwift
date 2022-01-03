@@ -7,5 +7,8 @@
 
 import Foundation
 
-print("Hello, World!")
+let board = BoardMaker(inputName:"/Users/kiarashvosough/Desktop/Magnet/Magnet/input1_method2.txt")
+    .getBoard()
+let csp = CSP(board: board)
+csp.setup()
 
