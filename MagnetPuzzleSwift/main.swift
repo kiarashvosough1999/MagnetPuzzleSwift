@@ -15,7 +15,7 @@ let input3 = "input3_method2.txt"
 
 for item in [input3, input2, input1] {
     let board = BoardMaker(inputName: inputsPath + item).getBoard()
-    let csp = CSP(board: board)
+    let csp = AI(board: board)
     csp.setup()
     sleep(20)
 }
