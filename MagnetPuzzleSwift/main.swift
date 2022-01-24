@@ -7,7 +7,7 @@
 
 import Foundation
 
-let inputsPath = "/Users/kiarashvosough/Desktop/MagnetPuzzleSwift/MagnetPuzzleSwift/Inputs/"
+let inputsPath = "/Users/kiarashvosough/Desktop/Project/MagnetPuzzleSwift/MagnetPuzzleSwift/Inputs/"
 
 let input1 = "input1_method2.txt"
 let input2 = "input2_method2.txt"
