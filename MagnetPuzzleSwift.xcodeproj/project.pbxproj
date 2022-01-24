@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DE145FE8279E7779009EC9F3 /* Board.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE145FE6279E7779009EC9F3 /* Board.swift */; };
+		DE145FE9279E7779009EC9F3 /* BoardMaker.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE145FE7279E7779009EC9F3 /* BoardMaker.swift */; };
 		DE9133E6278375A1001E2CA2 /* AI.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE9133E5278375A1001E2CA2 /* AI.swift */; };
 		DEB4BC0827831E9C00D870A3 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB4BC0727831E9C00D870A3 /* main.swift */; };
 		DEB4BC10278320CA00D870A3 /* Position.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB4BC0F278320CA00D870A3 /* Position.swift */; };
@@ -18,8 +20,6 @@
 		DEB4BC1D278322C400D870A3 /* ConstraintCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB4BC1C278322C300D870A3 /* ConstraintCell.swift */; };
 		DEB4BC1F278322CF00D870A3 /* EmptyCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB4BC1E278322CF00D870A3 /* EmptyCell.swift */; };
 		DEB4BC21278322DF00D870A3 /* PairCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB4BC20278322DF00D870A3 /* PairCell.swift */; };
-		DEB4BC2427832D5700D870A3 /* Board.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB4BC2327832D5700D870A3 /* Board.swift */; };
-		DEB4BC2627832D8100D870A3 /* BoardMaker.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB4BC2527832D8100D870A3 /* BoardMaker.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -35,6 +35,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		DE145FE6279E7779009EC9F3 /* Board.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Board.swift; sourceTree = "<group>"; };
+		DE145FE7279E7779009EC9F3 /* BoardMaker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BoardMaker.swift; sourceTree = "<group>"; };
 		DE9133E5278375A1001E2CA2 /* AI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AI.swift; sourceTree = "<group>"; };
 		DEB4BC0427831E9C00D870A3 /* MagnetPuzzleSwift */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = MagnetPuzzleSwift; sourceTree = BUILT_PRODUCTS_DIR; };
 		DEB4BC0727831E9C00D870A3 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
@@ -47,8 +49,6 @@
 		DEB4BC1C278322C300D870A3 /* ConstraintCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConstraintCell.swift; sourceTree = "<group>"; };
 		DEB4BC1E278322CF00D870A3 /* EmptyCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyCell.swift; sourceTree = "<group>"; };
 		DEB4BC20278322DF00D870A3 /* PairCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PairCell.swift; sourceTree = "<group>"; };
-		DEB4BC2327832D5700D870A3 /* Board.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Board.swift; path = ../../../../Documents/Board.swift; sourceTree = "<group>"; };
-		DEB4BC2527832D8100D870A3 /* BoardMaker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = BoardMaker.swift; path = ../../../../Documents/BoardMaker.swift; sourceTree = "<group>"; };
 		DEB4BC2D27832EFE00D870A3 /* input3_method2.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = input3_method2.txt; sourceTree = "<group>"; };
 		DEB4BC2E27832FB100D870A3 /* input1_method2.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = input1_method2.txt; sourceTree = "<group>"; };
 		DEB4BC2F27832FB100D870A3 /* input2_method2.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = input2_method2.txt; sourceTree = "<group>"; };
@@ -65,6 +65,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		DE145FE5279E7761009EC9F3 /* Board */ = {
+			isa = PBXGroup;
+			children = (
+				DE145FE6279E7779009EC9F3 /* Board.swift */,
+				DE145FE7279E7779009EC9F3 /* BoardMaker.swift */,
+			);
+			path = Board;
+			sourceTree = "<group>";
+		};
 		DE9133E42783758A001E2CA2 /* CSP-AI */ = {
 			isa = PBXGroup;
 			children = (
@@ -92,9 +101,9 @@
 		DEB4BC0627831E9C00D870A3 /* MagnetPuzzleSwift */ = {
 			isa = PBXGroup;
 			children = (
+				DE145FE5279E7761009EC9F3 /* Board */,
 				DE9133E42783758A001E2CA2 /* CSP-AI */,
 				DEB4BC2A27832E8C00D870A3 /* Inputs */,
-				DEB4BC2227832D4A00D870A3 /* Board */,
 				DEB4BC19278322AB00D870A3 /* Cells */,
 				DEB4BC0E278320BD00D870A3 /* Utilities */,
 				DEB4BC0727831E9C00D870A3 /* main.swift */,
@@ -123,15 +132,6 @@
 				DEB4BC20278322DF00D870A3 /* PairCell.swift */,
 			);
 			path = Cells;
-			sourceTree = "<group>";
-		};
-		DEB4BC2227832D4A00D870A3 /* Board */ = {
-			isa = PBXGroup;
-			children = (
-				DEB4BC2327832D5700D870A3 /* Board.swift */,
-				DEB4BC2527832D8100D870A3 /* BoardMaker.swift */,
-			);
-			path = Board;
 			sourceTree = "<group>";
 		};
 		DEB4BC2A27832E8C00D870A3 /* Inputs */ = {
@@ -204,11 +204,11 @@
 			files = (
 				DEB4BC10278320CA00D870A3 /* Position.swift in Sources */,
 				DEB4BC21278322DF00D870A3 /* PairCell.swift in Sources */,
+				DE145FE8279E7779009EC9F3 /* Board.swift in Sources */,
 				DEB4BC12278320EC00D870A3 /* Clonable.swift in Sources */,
-				DEB4BC2627832D8100D870A3 /* BoardMaker.swift in Sources */,
 				DEB4BC1B278322B600D870A3 /* Cell.swift in Sources */,
 				DE9133E6278375A1001E2CA2 /* AI.swift in Sources */,
-				DEB4BC2427832D5700D870A3 /* Board.swift in Sources */,
+				DE145FE9279E7779009EC9F3 /* BoardMaker.swift in Sources */,
 				DEB4BC0827831E9C00D870A3 /* main.swift in Sources */,
 				DEB4BC1D278322C400D870A3 /* ConstraintCell.swift in Sources */,
 				DEB4BC182783214200D870A3 /* NodeType.swift in Sources */,
